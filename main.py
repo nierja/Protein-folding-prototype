@@ -7,7 +7,7 @@ import os
 
 
 class HMC_simulation(Protein):
-    """class for HMC simulation of protein model class defined in protein.py alongside with some vector operations"""
+    """class for HMC simulation of protein model class defined in protein_model.py alongside with some vector operations"""
 
     def __init__(self, sequence):
         super().__init__(sequence)
